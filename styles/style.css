@@ -186,6 +186,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  height: 563px;
 }
 
 .lots__card-list-item {
@@ -201,12 +202,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 334px;
-  height: 563px;
+  height: 100%;
   color: white;
 }
 
 .card__title {
-  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
