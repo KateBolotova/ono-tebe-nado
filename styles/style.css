@@ -252,8 +252,61 @@ body {
 .about {
   width: 1052px;
   height: 595px;
-  border: 1px solid red;
-  margin-top: 146px;
+  margin: 146px auto 180px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
 }
+
+.about__logo_bg {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 240px;
+  height: 240px;
+  margin: 35px 47px 0;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;  
+}
+
+.about__logo {
+  width: 148px;
+  height: 114px;
+  margin: 64px 62px 45px 46px;
+}
+
+.about__title {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  padding-top: 136px;
+}
+
+.about__text {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  padding-top: 90px;
+}
+
+.footer {
+  border: 1px solid black;
+  margin: 0 auto;
+  height: 98px;
+}
+
+
 
 
