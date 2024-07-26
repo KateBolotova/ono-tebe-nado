@@ -77,7 +77,7 @@
   letter-spacing: 0.3em;
   display: flex;
   flex-direction: column;
-  padding: 165px 50px;
+  padding: 165px 50px 136px;
 }
 
 .aligned-text {
@@ -111,6 +111,7 @@
 .cover__description {
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .cover__description-text {
