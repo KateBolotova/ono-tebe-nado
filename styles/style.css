@@ -48,12 +48,14 @@
   flex-direction: column;
   font-style: normal;
   line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.address_no_bullit {
+  list-style: none;
 }
 
 .header__address {
-  list-style: none;
-  line-height: 24px;
-  letter-spacing: 0.01em;
   padding-left: 184px;
 }
 
@@ -268,6 +270,7 @@
 }
 
 .about__text {
+  display: grid;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -276,10 +279,7 @@
   line-height: 24px;
   letter-spacing: 0.01em;
   padding-top: 35px;
-}
-
-.about__text_first_p {
-  margin-bottom: 24px;
+  gap: 25px;
 }
 
 .footer {
